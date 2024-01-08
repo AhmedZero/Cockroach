@@ -432,7 +432,7 @@ PINVOKE void Open3DMeshPopulate (
     // Convert Rhino Mesh --> Populate points
     ////////////////////////////////////////////////////////////////
     bool TriangleNormal = type == 0 ? false : true;
-    auto Open3DCloud = type>1 ? meshOpen3D->SamplePointsPoissonDisk (n) :  meshOpen3D->SamplePointsUniformly (n, TriangleNormal, 1);
+    auto Open3DCloud = type>1 ? meshOpen3D->SamplePointsPoissonDisk (n) :  meshOpen3D->SamplePointsUniformly (n, TriangleNormal);
 
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////

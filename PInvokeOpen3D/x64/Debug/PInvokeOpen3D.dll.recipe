@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\libs\PInvokeCPPCSHARP\PInvoke\x64\Debug\PInvokeOpen3D.dll</FullPath>
+      <FullPath>N:\My_Projects\Cockroach\x64\Debug\PInvokeOpen3D.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

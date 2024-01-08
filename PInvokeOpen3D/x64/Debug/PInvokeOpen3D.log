@@ -1,2 +1,77 @@
 ﻿  base.cpp
-C:\libs\PInvokeCPPCSHARP\PInvoke\PInvokeOpen3D\base.cpp(2,10): fatal error C1083: Cannot open include file: 'open3d/Open3D.h': No such file or directory
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(129,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(132,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(135,41): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(243,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(246,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(249,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(334,125): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(350,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(353,48): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(356,47): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(359,39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(442,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(523,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(526,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Cockroach\PInvokeOpen3D\base.cpp(529,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(106,36): warning C4267: 'initializing': conversion from 'size_t' to 'Size_T', possible loss of data
+N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(106,36): warning C4267:         with
+N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(106,36): warning C4267:         [
+N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(106,36): warning C4267:             Size_T=unsigned int
+N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(106,36): warning C4267:         ]
+  (compiling source file 'base.cpp')
+  N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(106,36):
+  the template instantiation context (the oldest one first) is
+  	N:\My_Projects\Open3D\cpp\open3d\core\SizeVector.h(31,34):
+  	see reference to class template instantiation 'open3d::core::SmallVector<open3d::utility::optional<int64_t>,4>' being compiled
+  	N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(1260,43):
+  	see reference to class template instantiation 'open3d::core::SmallVectorImpl<T>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+  	N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(616,32):
+  	see reference to class template instantiation 'open3d::core::SmallVectorTemplateBase<T,false>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+  	N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(368,40):
+  	see reference to class template instantiation 'open3d::core::SmallVectorTemplateCommon<T,void>' being compiled
+          with
+          [
+              T=open3d::utility::optional<int64_t>
+          ]
+  	N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(154,14):
+  	see reference to class template instantiation 'open3d::core::SmallVectorBase<unsigned int>' being compiled
+  	N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(105,5):
+  	while compiling class template member function 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'
+  		N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(169,50):
+  		see the first reference to 'open3d::core::SmallVectorBase<unsigned int>::SmallVectorBase' in 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'
+          with
+          [
+              T=int64_t
+          ]
+  		N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(526,72):
+  		see the first reference to 'open3d::core::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon' in 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase'
+          with
+          [
+              T=int64_t
+          ]
+  		N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(630,70):
+  		see the first reference to 'open3d::core::SmallVectorTemplateBase<T,true>::SmallVectorTemplateBase' in 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl'
+          with
+          [
+              T=int64_t
+          ]
+  		N:\My_Projects\Open3D\cpp\open3d\core\SmallVector.h(1263,39):
+  		see the first reference to 'open3d::core::SmallVectorImpl<T>::SmallVectorImpl' in 'open3d::core::SmallVector<int64_t,4>::SmallVector'
+          with
+          [
+              T=int64_t
+          ]
+  		N:\My_Projects\Open3D\cpp\open3d\core\SizeVector.h(72,15):
+  		see the first reference to 'open3d::core::SmallVector<int64_t,4>::SmallVector' in 'open3d::core::SizeVector::SizeVector'
+  
+     Creating library N:\My_Projects\Cockroach\x64\Debug\PInvokeOpen3D.lib and object N:\My_Projects\Cockroach\x64\Debug\PInvokeOpen3D.exp
+  PInvokeOpen3D.vcxproj -> N:\My_Projects\Cockroach\x64\Debug\PInvokeOpen3D.dll
